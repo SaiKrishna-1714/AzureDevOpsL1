@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureDevOpsL1", "AzureDevOpsL1\AzureDevOpsL1.deployproj", "{2F67336C-5C04-4F87-B81E-9C8CCDA4BDB9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61712226-4D9F-4F68-8C33-F0B0537E09B0}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\LabFiles\Module01-Lab01\azuredeploy.json = ..\..\..\..\..\LabFiles\Module01-Lab01\azuredeploy.json
+		..\..\..\..\..\LabFiles\Module01-Lab01\azuredeploy.parameters.json = ..\..\..\..\..\LabFiles\Module01-Lab01\azuredeploy.parameters.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
